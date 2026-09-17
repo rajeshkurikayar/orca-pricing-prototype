@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Teal circle background -->
+  <circle cx="32" cy="32" r="30" fill="#4BBFBF"/>
+  <!-- Orca body (black) -->
+  <path d="M18 42 C20 34, 26 24, 35 22 C42 20, 48 24, 50 20 C52 16, 54 14, 56 16 C54 22, 50 26, 48 30 C46 35, 40 40, 32 40 C26 40, 20 46, 17 50 C15 52, 13 51, 13 49 C13 46, 15 44, 18 42Z" fill="#1A1A1A"/>
+  <!-- Dorsal fin -->
+  <path d="M36 22 C38 15, 43 11, 45 13 C45 18, 42 20, 39 22Z" fill="#1A1A1A"/>
+  <!-- White belly -->
+  <path d="M28 36 C32 33, 40 34, 44 38 C41 42, 34 42, 28 40 C26 38, 26 37, 28 36Z" fill="white"/>
+  <!-- White tail fluke -->
+  <path d="M17 50 C19 47, 23 46, 24 48 C22 51, 19 52, 17 50Z" fill="white"/>
+  <path d="M13 49 C15 47, 18 47, 18 49 C17 51, 14 52, 13 49Z" fill="white"/>
+  <!-- Eye -->
+  <circle cx="45" cy="26" r="2" fill="white"/>
+  <circle cx="45.6" cy="26" r="1" fill="#1A1A1A"/>
+</svg>

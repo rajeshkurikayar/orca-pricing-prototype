@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  /* Typography */
+  --font-sans: "Source Sans 3", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+
+  /* Light theme surfaces */
+  --color-page: #f7f8fa;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f1f3f6;
+  --color-border: #e4e7ec;
+  --color-border-strong: #d0d5dd;
+
+  /* Text */
+  --color-text-primary: #1a2027;
+  --color-text-secondary: #667085;
+  --color-text-muted: #98a2b3;
+
+  /* Brand accent (teal) */
+  --color-accent: #2f8f94;
+  --color-accent-hover: #257277;
+  --color-accent-muted: #e6f4f4;
+  --color-accent-border: #b7dfe0;
+  --color-on-accent: #ffffff;
+
+  /* Status */
+  --color-success: #16a34a;
+  --color-success-muted: #e8f7ee;
+  --color-success-border: #b8e6c8;
+
+  --color-warning: #b54708;
+  --color-warning-muted: #fcede0;
+  --color-warning-border: #f3c99a;
+
+  --color-danger: #d92d20;
+  --color-danger-muted: #fdeceb;
+  --color-danger-border: #f5b8b2;
+
+  --color-info: #175cd3;
+  --color-info-muted: #eaf1fd;
+  --color-info-border: #b6d0f7;
+
+  /* Desk colors */
+  --color-desk-fat: #c4470a;
+  --color-desk-fat-muted: #fdeee2;
+  --color-desk-ram: #16a34a;
+  --color-desk-ram-muted: #e8f7ee;
+  --color-desk-green: #0f9d78;
+  --color-desk-green-muted: #e3f6ef;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-page);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
